@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.case1__bg {
+  background: url("/my-app/src/assets/icons/mockup1.png") no-repeat;
+  background-size: contain;
+  background-position-y: center;
+}
