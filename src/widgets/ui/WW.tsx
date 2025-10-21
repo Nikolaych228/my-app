@@ -41,41 +41,42 @@ const WW = () => {
         setHasPlayed(true);
       };
   return (
-    <div className="mx-10 mt-5 relative bg-[#F6F6F6] mb-12 h-[1179px] relative overflow-hidden rounded-[40px]">
+    <div className="mx-10 bg-[#F6F6F6] mt-5 relative mb-12 h-[850px] overflow-hidden rounded-[40px]">
         <video
             ref={videoRef}
             muted
             playsInline
             onEnded={handleVideoEnd}
-            className="absolute top-30 w-full left-100 h-[1079px] px-[200px] object-cover z-0"
+            className="absolute ml-[500px] top-0 left-0 h-full object-cover z-0"
         >
           <source src="/src/assets/video/ww.mp4" type="video/mp4" />
             Ваш браузер не поддерживает видео.
         </video>
-       <div className='ml-[95px] z-10 relative w-[750px]'>
+       <div className='ml-10 z-10 relative w-[550px]'>
         <div>
-            <p className="text-[96px] text-[#494949] font-semibold leading-27 flex text-wrap mt-[37px]">
+            <p className="text-[60px] text-[#494949] font-semibold leading-18 flex text-wrap mt-[37px]">
                 Мобильное приложение по подработкам
             </p>
-            <p className="text-[33px] text-[#494949] font-bold  mt-8">
+            <p className="text-[28px] text-[#494949] font-bold mt-5">
                 Желание заказчика
             </p>
-            <p className="text-[#999999] text-5 mt-3">
+            <p className="text-[#999999] text-[15px] mt-2">
                 Создать мобильное приложение, которое объединит разрозненный рынок временного труда и станет надежным посредником между соискателями и работодателями.
             </p>
-            <p className="text-[33px] text-[#494949] font-bold mt-8">
+            <p className="text-[28px] text-[#494949] font-bold mt-5">
                 Результат
             </p>
-            <p className="text-[#999999] text-5 mt-3">
+            <p className="text-[#999999] text-[15px] mt-2">
                 Раздельные интерфейсы для соискателей и работодателей Встроенная система рейтингов и верификации
-Процесс публикации вакансий сокращен до 5 шагов
+                Процесс публикации вакансий сокращен до 5 шагов
 Автоматизированная система выплат            </p>
         </div>
        </div>
-        <div className="flex flex-row  relative justify-between max-w-[794px] mt-[283px] ml-[95px]">
-            <div className="w-[750px]">
-                <p className="text-[20px] text-[#999999] mt-2">Приложение успешно опубликовано в RuStore. Проект запущен в активную фазу роста, с ежедневным мониторингом ключевых метрик. Дизайн-система позволяет оперативно добавлять новый функционал по мере развития платформы.</p>
+        <div className="flex flex-row  relative justify-between max-w-[794px] mt-[210px] ml-10">
+            <div className="w-[720px]">
+                <p className="text-[#999999] text-[15px]">Приложение успешно опубликовано в RuStore. Проект запущен в активную фазу роста, с ежедневным мониторингом ключевых метрик. Дизайн-система позволяет оперативно добавлять новый функционал по мере развития платформы.</p>
             </div>
+           
         </div>
     </div>
   )

@@ -7,6 +7,14 @@ import Sso from './widgets/ui/Sso'
 import WW from './widgets/ui/WW'
 import Steps from './widgets/ui/Steps'
 import Footer from './widgets/ui/Footer'
+import Rs from './widgets/ui/Rs'
+import Case2 from './shared/ui/Case2'
+import Case3 from './shared/ui/Case3'
+import Case4 from './shared/ui/Case4'
+import Snn from './widgets/ui/Snn'
+import Case5 from './shared/ui/Case5'
+import St from './widgets/ui/St'
+import Polygraphy from './widgets/ui/Polygraphy'
 
 function App() {
   
@@ -17,7 +25,15 @@ function App() {
       <Aboute/>
       <Case1/>
       <Sso/>
+      <Case2/>
+      <Rs/>
+      <Case3/>
       <WW/>
+      <Case4/>
+      <Snn/>
+      <Case5/>
+      <St/>
+      <Polygraphy/>
       <Steps/>
       <Footer/>
     </>

@@ -6,13 +6,13 @@ const HeroBlock = () => {
     <div className='flex flex-row'>
       <div className="mt-[150px] ml-[55px] w-1/2">
         <div className="">
-            <p className="ml-[-6px] text-[148px] text-[#3F3F3F] font-semibold">Елизавета</p>
+            <p className="ml-[-6px] text-[120px] text-[#3F3F3F] font-semibold">Елизавета</p>
             <p className=" text-[40px] text-[#3F3F3F] mt-[-40px]">UX/UI-Дизайнер</p>
         </div>
-        <div className="h-[1px] w-[893px] bg-[#3F3F3F] opacity-20 mt-5"></div>
-        <div className="flex flex-row items-end justify-between">
+        <div className="h-[1px] w-full bg-[#3F3F3F] opacity-20 mt-5"></div>
+        <div className="flex flex-row items-end justify-between w-[800px]">
             <div className="max-w-[351px]">
-                <p className="text-[20px] leading-7 text-[#3F3F3F] ">
+                <p className="text-[16px] leading-7 ttext-[#999999]">
                     Я создаю интерфейсы, которые чувствуют и предвосхищают. Как интеллектуальные системы, адаптирующиеся под поведение 
                     и эмоции пользователя.
                 </p>
@@ -20,13 +20,13 @@ const HeroBlock = () => {
                     Смотреть кейсы
                 </div>
             </div>
-            <div className="w-[1px] bg-[#3F3F3F] h-100 opacity-20 mt-0"></div>
+            <div className="w-[1px] bg-[#3F3F3F] h-80 opacity-20 mt-0"></div>
             <div className='mb-[33px]'>
                 <div className='mb-5'>
                     <img src={Star} alt='star'/>
                 </div>
                 <p className='font-bold text-[33px] text-[#3F3F3F]'>4+</p>
-                <p className='text-[20px] text-[#999999]'>Лет опыта</p>
+                <p className='text-[16px] text-[#999999]'>Лет опыта</p>
             </div>
             <div className="w-[1px] bg-[#3F3F3F] h-[121px] opacity-20 mt-0"></div>
             <div className='mb-[33px] flex flex-col'>
@@ -34,7 +34,7 @@ const HeroBlock = () => {
                     <img src={Star} alt='star'/>
                 </div>
                 <p className='font-bold text-[33px] text-[#3F3F3F]'>50+</p>
-                <p className='text-[20px] text-[#999999]'>Успешных проектов</p>
+                <p className='text-[16px] text-[#999999]'>Успешных проектов</p>
             </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const HeroBlock = () => {
          <ThreeScene
             rotationSpeed={0.3}
             modelScale={2.8}
-            className="h-[800px]  rounded-xl"
+            className="h-[600px]  rounded-xl"
             showControls={true}
         />
       </div>
