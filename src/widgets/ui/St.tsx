@@ -47,7 +47,7 @@ const st = () => {
             onEnded={handleVideoEnd}
             className="absolute ml-[500px] top-0 left-0 h-full object-cover z-0"
         >
-          <source src="/src/assets/video/snn.mp4" type="video/mp4" />
+          <source src="/src/assets/video/ss.mp4" type="video/mp4" />
             Ваш браузер не поддерживает видео.
         </video>
        <div className='ml-10 z-10 relative w-[550px]'>
